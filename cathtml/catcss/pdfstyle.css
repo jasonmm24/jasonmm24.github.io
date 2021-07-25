@@ -1,0 +1,25 @@
+.pdf {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.pdf iframe {
+  box-shadow: 3px 3px 30px 3px #313131;
+  border-radius: 10px;
+  width: 95%;
+  height: 120vh;
+}
+
+.ctype {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  max-width: 1200px;
+  align-items: center;
+}
+
+.fbp-embed {
+  box-shadow: 3px 3px 30px 3px #313131;
+  border-radius: 10px;
+}

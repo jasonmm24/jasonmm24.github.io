@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Viaoda+Libre&display=swap");
+
+/* footer - pie de pafina */
+
+.container-footer {
+  width: 100%;
+  padding: 40px 0;
+  background: #e0e0e0;
+  margin-top: 40px;
+}
+
+.container-footer footer {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container-footer footer .logo-footer {
+  text-align: center;
+}
+
+.container-footer footer .logo-footer img {
+  width: 100px;
+}
+
+.container-footer footer .redes-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container-footer footer .redes-footer .icon-redes-footer {
+  font-size: 20px;
+  margin: 20px;
+  background: #c7c7c7;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: #a2a2a2;
+}
+
+.container-footer footer .redes-footer .fa-facebook-f:hover {
+  background: linear-gradient(to top right, #168bf8, #0004ff);
+  color: #ffffff;
+}
+
+.container-footer footer .redes-footer .fa-whatsapp:hover {
+  background: linear-gradient(to top right, #3df037, #00b828);
+  color: #ffffff;
+}
+
+.container-footer footer .redes-footer .fa-instagram:hover {
+  background: linear-gradient(
+    to top right,
+    #fcde30,
+    #e9712a,
+    #d2313b,
+    #ae4198,
+    #7540a1,
+    #5443a8
+  );
+  color: #ffffff;
+}
+
+.container-footer footer hr {
+  margin: top 20px;
+  border: none;
+  height: 2px;
+  background: #a8a8a87a;
+}
+
+.container-footer h4 {
+  text-align: center;
+  margin-top: 40px;
+  color: #8e8e8e;
+  font-weight: 500;
+}

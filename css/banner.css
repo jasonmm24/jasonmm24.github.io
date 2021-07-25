@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Viaoda+Libre&display=swap");
+
+/* portada */
+
+.banner-cover {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.banner-cover:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(238, 0, 0, 0.89);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.banner-cover-info {
+  max-width: 800px;
+  height: 200px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.banner-cover-info h1 {
+  font-size: 200px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* fin de portada */
